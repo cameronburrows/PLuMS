@@ -1,5 +1,5 @@
 """
-Defines a building on campus
+Defines building on campus
 """
 
 
