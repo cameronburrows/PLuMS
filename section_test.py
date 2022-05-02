@@ -23,7 +23,7 @@ def describe_a_course_section():
     teate = Instructor("Anthony", "Teate", "teate@example.edu", king341)
     alice = Student("Alice", "Alison", "alice@example.edu", "ISAT")
     bob = Student("Bob", "Bobson", "bob@example.edu")
-    charlie = Student("Charlie", "Charlieson", "charlie@example.edu", "CIS")
+    chad = Student("Chad", "Chaderson", "chad@example.edu", "CIS")
     # create a course
     isat252 = Course("ISAT", "252", "Programming and Problem Solving")
 
@@ -33,7 +33,7 @@ def describe_a_course_section():
         "S",
         2022,
         [morgan],
-        [alice, bob, charlie],
+        [alice, bob, chad],
         king337,
         "MWF",
         "9:10",
@@ -49,4 +49,5 @@ def describe_a_course_section():
         assert (
             isat252s2201.info
             == "ISAT252 S22 Programming and Problem Solving, Benton, MWF 9:10 (50 min)"
+        )
         
